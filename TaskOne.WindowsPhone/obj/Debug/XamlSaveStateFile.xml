@@ -1,0 +1,13 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <ReferenceAssembly PathName="c:\git\taskone\taskone.windowsphone\packages\microsoft.applicationinsights.0.14.3-build00177\lib\portable-win81+wpa81\microsoft.applicationinsights.dll" HashGuid="d0dfe535-b472-5b49-c347-e6bbd42ae010" />
+    <ReferenceAssembly PathName="c:\git\taskone\taskone.windowsphone\packages\microsoft.applicationinsights.windowsapps.0.14.3-build00177\lib\wpa81\microsoft.applicationinsights.extensibility.windows.dll" HashGuid="9382d8e2-2b6b-c2f9-4985-b6656af33892" />
+    <ReferenceAssembly PathName="c:\git\taskone\taskone.windowsphone\packages\microsoft.applicationinsights.persistencechannel.0.14.3-build00177\lib\portable-win81+wpa81\microsoft.applicationinsights.persistencechannel.dll" HashGuid="22f0f519-ef3c-85d1-bd25-71511e0d6811" />
+    <ReferenceAssembly PathName="c:\git\taskone\taskone.windowsphone\packages\microsoft.diagnostics.tracing.eventsource.redist.1.1.16-beta\lib\net45\microsoft.diagnostics.tracing.eventsource.dll" HashGuid="80297b0f-1235-0f77-6fca-4fb05d72d4c7" />
+    <ReferenceAssembly PathName="c:\git\taskone\taskone.windowsphone\packages\windowsazure.mobileservices.1.2.5\lib\wpa81\microsoft.windowsazure.mobile.dll" HashGuid="083034df-3ca7-6905-c884-535ec28d6c4e" />
+    <ReferenceAssembly PathName="c:\git\taskone\taskone.windowsphone\packages\windowsazure.mobileservices.1.2.5\lib\wpa81\microsoft.windowsazure.mobile.ext.dll" HashGuid="d14f6c57-ffca-9ad1-126f-ce93487ab524" />
+    <ReferenceAssembly PathName="c:\git\taskone\taskone.windowsphone\packages\newtonsoft.json.6.0.8\lib\portable-net40+sl5+wp80+win8+wpa81\newtonsoft.json.dll" HashGuid="225745d8-3693-ad6f-ebd5-8845d81f8e0f" />
+    <ReferenceAssembly PathName="c:\git\taskone\taskone.windowsphone\packages\microsoft.net.http.2.2.29\lib\wpa81\system.net.http.extensions.dll" HashGuid="794366f8-cc6d-f0fa-3d07-33b45136e193" />
+    <ReferenceAssembly PathName="c:\git\taskone\taskone.windowsphone\packages\microsoft.net.http.2.2.29\lib\wpa81\system.net.http.primitives.dll" HashGuid="7b71418d-e056-7613-c839-85fb8f6472a6" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>
