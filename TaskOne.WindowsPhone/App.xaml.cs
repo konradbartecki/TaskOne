@@ -25,6 +25,12 @@ namespace TaskOne.WindowsPhone
     /// </summary>
     public sealed partial class App : Application
     {
+        // http://go.microsoft.com/fwlink/?LinkId=290986&clcid=0x409
+        public static Microsoft.WindowsAzure.MobileServices.MobileServiceClient TaskOneClient = new Microsoft.WindowsAzure.MobileServices.MobileServiceClient(
+        "https://taskone.azure-mobile.net/",
+        "QaaVFKlVfbJTghjpdryrYJuotTCHjG38");
+
+
         /// <summary>
         /// Allows tracking page views, exceptions and other telemetry through the Microsoft Application Insights service.
         /// </summary>

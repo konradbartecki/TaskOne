@@ -41,6 +41,8 @@ namespace TaskOne.MobileService.Models
                 new AttributeToColumnAnnotationConvention<TableColumnAttribute, string>(
                     "ServiceTableColumn", (property, attributes) => attributes.Single().ColumnType.ToString()));
         }
+
+        public System.Data.Entity.DbSet<TaskOne.MobileService.DataObjects.User> Users { get; set; }
     }
 
 }
