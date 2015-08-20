@@ -110,6 +110,8 @@ namespace TaskOne.WindowsPhone
             try
             {
                 await userTable.InsertAsync(myUser);
+                Debug.WriteLine("HTTP 201 Created - User ID: {0}", myUser.id);
+                idbox.Text = String.Format("Registered with user ID: {0}", myUser.id);
             }
             catch (MobileServiceInvalidOperationException e)
             {

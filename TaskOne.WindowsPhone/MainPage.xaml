@@ -23,6 +23,7 @@
                 <StackPanel Margin="85,0,0,0">
                     <TextBlock x:Name="namebox" Style="{ThemeResource ListViewItemTextBlockStyle}"/>
                     <TextBlock x:Name="usernamebox" Style="{ThemeResource ListViewItemSubheaderTextBlockStyle}" TextWrapping="WrapWholeWords" MaxHeight="48"/>
+                    <TextBlock x:Name="idbox" Style="{ThemeResource ListViewItemSubheaderTextBlockStyle}"/>
                 </StackPanel>
             </Grid>
             
