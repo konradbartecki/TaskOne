@@ -9,6 +9,24 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <Grid x:Name="LoginGrid" d:IsHidden="True">
+            <Button x:Name="button" HorizontalAlignment="Stretch" Margin="5,582,5,0" VerticalAlignment="Bottom" Content="Login with Twitter" Click="button_Click"/>
+            <TextBox x:Name="textBox" Visibility="Collapsed" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="380" PlaceholderText="Enter PIN"/>
+            <Button x:Name="button2" Visibility="Collapsed" Content="Register with AMS" HorizontalAlignment="Left" Margin="10,57,0,0" VerticalAlignment="Top" Width="380" Click="button2_Click"/>
+        </Grid>    
+        <Grid x:Name="MainGrid" Visibility="Collapsed">
+            <Grid Height="85" VerticalAlignment="Top">
+
+                <Border Background="{ThemeResource ListViewItemPlaceholderBackgroundThemeBrush}" Margin="0,9.5,0,0" Grid.Column="0" HorizontalAlignment="Left">
+                    <Image x:Name="imgbox" Stretch="UniformToFill" AutomationProperties.Name="{Binding Title}" Height="79" Width="79"/>
+                </Border>
+                <StackPanel Margin="85,0,0,0">
+                    <TextBlock x:Name="namebox" Style="{ThemeResource ListViewItemTextBlockStyle}"/>
+                    <TextBlock x:Name="usernamebox" Style="{ThemeResource ListViewItemSubheaderTextBlockStyle}" TextWrapping="WrapWholeWords" MaxHeight="48"/>
+                </StackPanel>
+            </Grid>
+            
+        </Grid>
 
     </Grid>
 </Page>
